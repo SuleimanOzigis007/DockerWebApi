@@ -10,4 +10,4 @@ namespace DockerWebApi
 
         public string? Summary { get; set; }
     }
-}
+} 
