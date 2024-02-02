@@ -5,7 +5,7 @@ namespace DockerWebApi.SuperHeroModel
 {
    public class AutoMapperProfile : Profile
     {
-        protected AutoMapperProfile()
+        public AutoMapperProfile()
         {
             CreateMap<SuperHero, SuperHeroDtos>();
             CreateMap<SuperHeroDtos, SuperHero>();
